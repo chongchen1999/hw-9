@@ -16,7 +16,14 @@ const BaseballStats = () => {
             {data.map((player, index) => (
                 <div key={index}>
                     <p>
-                        {`Rank: ${player.Rank || 'N/A'}, Player: ${player.Player}, Age: ${player.AgeThatYear}, Hits: ${player.Hits}, Year: ${player.Year}, Bats: ${player.Bats}`}
+                        {
+                            `Rank: ${player.Rank}, 
+                            Player: ${player.Player}, 
+                            Age: ${player.AgeThatYear}, 
+                            Hits: ${player.Hits}, 
+                            Year: ${player.Year}, 
+                            Bats: ${player.Bats}`
+                        }
                     </p>
                 </div>
             ))}

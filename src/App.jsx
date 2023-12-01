@@ -1,4 +1,4 @@
-import BaseballStats from './BaseballStats';
+import BaseballStats from './pages/BaseballStats.jsx';
 
 const App = () => {
     return (
